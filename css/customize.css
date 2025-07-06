@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Watermark background pattern */
+body {
+  background-color: #000;
+  background-image: url('../images/Λ.png');
+  background-repeat: repeat;
+  background-size: 120px 120px;
+}
+
+/* Optionally, keep your other styles here */
+img.scale-with-grid {
+  width: 240px;
+  height: 180px;
+  object-fit: cover;
+  aspect-ratio: 3 / 3;
+  display: block;
+  margin: 0 auto;
+}
+
+img.full-height {
+  height: 100%;
+}
+
+.quarter-bottom-rel { margin-bottom: 4% !important; }
+.quarter-bottom { margin-bottom: 25px !important; }
+.half-bottom { margin-bottom: 50px !important; }
+.one-bottom, .add-bottom { margin-bottom: 100px !important; }
+.two-bottoms { margin-bottom: 200px !important; }
+.one-top { margin-top: 100px !important; }
+.two-tops { margin-top: 200px !important; }
+
+.center {
+  text-align: center;
+}
