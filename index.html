@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs–– -->
+  <meta charset="utf-8"> 
+  <title>Loukianos_Xanthopoulos_website</title>
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT -->
+  <style>
+    @font-face {
+      font-family: 'Bahnschrift';
+      src: local('Bahnschrift SemiBold Condensed');
+      font-weight: 600;
+      font-stretch: condensed;
+    }
+  </style>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/customize.css">
+
+  <!-- Include p5.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <style>
+    body {
+      background-color: #170046; /* Light gray background */
+      color: #00008B; /* Dark blue text */
+      font-family: 'Bahnschrift', sans-serif; /* Bahnschrift SemiBold Condensed font */
+    }
+    .scale-with-grid {
+      outline: 3px solid rgb(0, 0, 139); /* Always blue outline */
+      transition: all 0.3s ease-in-out;
+    }
+    .scale-with-grid:hover {
+      outline: 5px solid rgb(155, 155, 255);
+      transform: scale(1.1) translateY(-10px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+      object-fit: cover; /* Ensure the image content itself is zoomed in */
+    }
+    h1, h2, h3, h4, h5, p, span, a {
+      font-family: 'Bahnschrift', sans-serif;
+      color: #ffbf00; /* Dark blue text */
+    }
+        h6 {
+      font-family: 'Bahnschrift', sans-serif;
+      color: #26FFED;
+    }
+    .dropdown {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      background-color: #FFFFE0; /* Light yellow background */
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    .dropdown a {
+      display: block;
+      color: #00008B; /* Dark blue text */
+      text-decoration: none;
+      padding: 5px 0;
+    }
+    .dropdown a:hover {
+      background-color: #FFFF99; /* Slightly darker yellow on hover */
+    }
+    h5 {
+      font-weight: bold;
+      text-transform: uppercase;
+  </style>
+</head>
+<body>
+
+  <div class="dropdown">
+    <a href="index.html"><strong>BA - 1st SEMESTER</strong></a>
+    <a href="Home_2.html"><strong>BA - 2nd SEMESTER</strong></a>
+  </div>
+
+  <div id="info" class="container">
+    <div id="course_info" class="row one-top">
+      <h1>NTUA ARCH 4342 Computational Methods in Creative Arts and Sciences </h1>
+    </div>
+
+    <div id="student_info" class="row half-bottom">
+      <h3>Loukianos Xanthopoulos</h3>
+      <div class="marquee">
+        <span style="text-align: justify;"><i>I am an undergrad student at NTUA School of Architecture. This is my website for Creative Arts and Sciences, where you could search and study my geometric ideas that can be based on ready-made software tools - Powerpoint and Word - and tools that I create myself through the programming languages Javascript and p5 (which is an extension of Javascript). My aim is to materialize, clarify and concretize with the right means my abstract ideas and concepts through creativity, research and innovation. Finally, I desire to develop myself by combining my talents and collaborating with fellow students. Here you can have a look at my projects.</i></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects Section 1 -->
+  <div id="projects" class="container">
+    <h3 class="half-bottom">Projects</h3>
+
+    <!-- Example Project Section -->
+    <div class="row half-bottom">
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/mkzk7ees">
+          <img src="images\Final project (3).png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Geogebra - The birthday cake origami</h5>
+        <h6><u>FINAL PROJECT</u></h6>
+      </div>
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/nsb4rszz">
+          <img src="images\Miura (12).png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Miura Origami</h5>
+        <h6><u>FINAL PROJECT</u></h6>
+      </div>
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/jxnzj9ja">
+          <img src="images\Yoshimura.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Yoshimura Origami</h5>
+        <h6><u>FINAL PROJECT</u></h6>
+      </div>
+    </div>
+
+    <!-- Example Project Section 2 -->
+    <div class="row half-bottom">
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/txvpzjtv">
+          <img src="images\geogebra-export.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>The Pentagonal Pavilion</h5>
+        <h6><u>EXERCISE #5</u></h6>
+      </div>
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/uqq9dubs">
+          <img src="images\ΑΣΚΗΣΗ 4 - ΒΗΜΑ 2 - ΥΠΟΑΣΚΗΣΗ 3.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Step #2 - Sub-Exrecise #3</h5>
+        <h6><u>EXERCISE #4</u></h6>
+      </div>
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/szj66wwj">
+          <img src="images\ΑΣΚΗΣΗ 4 - ΒΗΜΑ 3 - GeoGebra - Google Chrome 3_12_2024 7_11_46 μμ.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Step #3</h5>
+        <h6><u>EXERCISE #4</u></h6>
+      </div>
+    </div>
+
+    <!-- Example Project Section 2 -->
+    <div class="row half-bottom">
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/ujpx3gmr">
+          <img src="images\ΑΣΚΗΣΗ 4 - ΒΗΜΑ 2 - ΥΠΟΑΣΚΗΣΗ 2.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Step #2 - Sub-Exercise #2</h5>
+        <h6><u>EXERCISE #4</u></h6>
+      </div>
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/dn8xs7vf">
+          <img src="images\ΑΣΚΗΣΗ 4 - ΒΗΜΑ 2 - ΥΠΟΑΣΚΗΣΗ 1.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Step #2 - Sub-Exercise #1</h5>
+        <h6><u>EXERCISE #4</u></h6>
+      </div>
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/afnvz98b">
+          <img src="images\Άσκηση 3 - Βήμα 3.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Step #3</h5>
+        <h6><u>EXERCISE #3</u></h6>
+      </div>
+    </div>
+    <!-- Example Project Section 2 -->
+    <div class="row half-bottom">
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/a6zjhhjt">
+          <img src="images\Άσκηση 2_Βήμα 2_Υποάσκηση 6.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Step #2 - Sub-Exercise #6</h5>
+        <h6><u>EXERCISE #2</u></h6>
+      </div>
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/gcvq5ebx">
+          <img src="images\Άσκηση 2_Βήμα 2_υποάσκηση 3.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Step #2 - Sub-Exercise #3</h5>
+        <h6><u>EXERCISE #2</u></h6>
+      </div>
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/r4qnhak3">
+          <img src="images\Άσκηση 2 - Βήμα 2 - Υποάσκηση 1.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Step #2 - Sub-Exercise #2/h5>
+        <h6><u>EXERCISE #3</u></h6>
+      </div>
+    </div>
+    <!-- Example Project Section 2 -->
+    <div class="row half-bottom">
+      <div class="four columns">
+        <a href="https://www.geogebra.org/m/vf3pg8vy">
+          <img src="images\Snowflake.png" alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>Step #3 - THE SNOWFLAKE</h5>
+        <h6><u>EXERCISE #2</u></h6>
+      </div>
+      <div class="four columns">
+        <a href="https://www.geogebra.org/calculator/bcnv9bhj">
+          <img src="images\Άκσηση_1.png"
+ alt="Description of the image" class="scale-with-grid">
+        </a>
+        <h5>EXERCISE #1</h5>
+        <h6><u>EXERCISE #1</u></h6>
+      </div>
+      <div class="four columns">
+        <a href="presentations\THE BIRTHDAY CAKE.pptx">
+          <img src="images\Προβολή παρουσίασης PowerPoint - [THE BIRTHDAY CAKE.pptx] 4_7_2025 10_41_46 μμ.png" class="scale-with-grid">
+        </a>
+        <h5>FINAL PRESENTATION</h5>
+        <h6><u>FINAL PRESENTATION - 1ST SEMESTER</u></h6>
+      </div>
+    <div class="row one-bottom center">
+      <p>©Loukianos Xanthopoulos 2025</p>
+    </div>
+  </div>
+</body>
+</html>
